@@ -20,6 +20,10 @@ You can allow public file for specific doctype by creating an entry in`Allow pub
 
 To allow public files for specific doctype add entry in doctype `Allow public files`
 
+![image](https://user-images.githubusercontent.com/11792643/150762499-1499ad37-619b-49ea-940d-30dbf1e4a3c6.png)
+
+![image](https://user-images.githubusercontent.com/11792643/150762544-3c1bb732-d07c-4935-95b8-a1b1fccf3a8d.png)
+
 #### License
 
 MIT
