@@ -1,9 +1,11 @@
-## Frappe Private Attachments
 
-Make all attachments as private
-<a href="https://zerodha.tech"><img src="https://zerodha.tech/static/images/github-badge.svg" align="right" /></a>
+## Frappe Private Attachments <a href="https://zerodha.tech"><img src="https://zerodha.tech/static/images/github-badge.svg" align="right" /></a>
 
-Make all frappe attachments as private
+
+
+Make all frappe attachments as private.
+
+You can allow public file for specific doctype by creating an entry in`Allow public files`
 
 
 
@@ -14,6 +16,9 @@ Make all frappe attachments as private
 
 ### Step 2) to install app on any instance/site
 ```bench install-app frappe_private_attachments```
+
+
+To allow public files for specific doctype add entry in doctype `Allow public files`
 
 #### License
 
