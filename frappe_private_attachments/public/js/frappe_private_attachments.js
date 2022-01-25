@@ -16,10 +16,13 @@ frappe.ui.FileUploader = class FileUploader extends frappe.ui.FileUploader {
 
 								me.uploader.toggle_all_private()
 							}else{
-								frappe.show_alert("Not allowed to upload public files")
+								frappe.show_alert({"message": "Not allowed to upload public files", "indicator": "red"})
 								return
 							}
 						})
+					}else{
+						frappe.show_alert({"message": "Not allowed to upload public files", "indicator": "red"})
+						return
 					}
 				}else{
 					this.uploader.toggle_all_private()
